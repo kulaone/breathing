@@ -36,3 +36,7 @@ function breadthLoop(){
   restart("inhale", "inhale");
   restart("exhale", "exhale");
 }
+
+function reloadPage() {
+  window.location.reload(false)
+}
