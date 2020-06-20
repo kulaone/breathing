@@ -127,3 +127,15 @@ body {
     margin-top: 200px;
     font-size: 50px;
 }
+
+.credits {
+    z-index: 1;
+    position: absolute;
+    bottom: 15px;
+    font-size: 10px;
+    color: white;
+}
+
+.credits a {
+    color: #a19f1f;
+}
