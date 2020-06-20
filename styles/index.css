@@ -151,3 +151,7 @@ body {
   padding: 4px 10px;
   cursor: pointer;
 }
+
+.hide {
+  display: none;
+}
