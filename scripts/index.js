@@ -7,10 +7,12 @@ window.onload = function () {
     var interval = setInterval(function () {
         if (breaths === MAX_BREATHS) {
             clearInterval(interval);
-            document.querySelector(".breathe").style.display = "none";
-            document.querySelector(".instructions.inhale").style.display = "none";
-            document.querySelector(".instructions.exhale").style.display = "none";
-            counter.style.display = "none";
+            document.querySelector(".breathe").classList.add("hide");
+            document.getElementById("inhale").classList.add("hide");
+            document.getElementById("exhale").classList.add("hide");
+            document.getElementById("hold").classList.add("hide");
+            counter.classList.add("hide");
+            document.getElementById("end").classList.remove("hide");
 
         }
         breaths += 1;
